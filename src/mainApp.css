@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* *{
+    color: #05055e23
+} */
+.root{
+    background: rgb(7,189,191);
+background: linear-gradient(0deg, rgba(7,189,191,1) 0%, rgba(17,6,62,1) 100%, rgba(0,2,200,1) 100%); 
+
+ }
+.abc {
+   font-family: 'Anton', sans-serif;
+}
+button {
+    color: red;
+    text-align: center;
+ border: "rounded-sm";
+
+    
+}
+input {
+    justify-content: center;
+    align-self: center;
+
+}            
+
+.button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#input_wrapper {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+                                        

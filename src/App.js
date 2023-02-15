@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="row min-vh-100">
+        <div className="col d-flex flex-column justify-content-center align-items-center">
+          <h1>Hello World!</h1>
+        </div>
+      </div>
     </div>
   );
-}
 
-export default App;
+
+  function renderPostsTable() {
+    return (
+      <div className="table-responsive mt-5">
+        <table className="table table-bordered border-dark">
+          <thead>
+            <tr>
+              <th scope="col">PostId (PK)</th>
+              <th scope="col">PostId (PK)</th>
+              
+            </tr>
+          </thead>
+        </table>
+      </div>
+    );
+  }
+
+}
